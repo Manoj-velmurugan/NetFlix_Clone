@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.herosection{
+    background-image: url('background.jpg');
+    height: 600px;
+    width: 100%;
+    background-size:cover;
+}
+
+.navigation-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(41, 40, 40, 0.3); 
+    backdrop-filter: blur(10px);       
+    -webkit-backdrop-filter: blur(10px); 
+}
+
+#logo{
+    width: 100px;
+    height: 50px;
+}
+
+.icons{
+    width: 20px;
+    height: 20px;
+}
+nav{
+    width: 40%;
+}
+
+li{
+    color: white;
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+a:hover{
+    border-bottom: 3px solid red;
+    transition-duration: 0.3s;
+}
+
+.user-profile{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.body-content{
+    padding-left: 100px;
+    margin-top: 100px;
+}
+
+.rating-ul{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating-ul li{
+    border-right: 2px solid red;
+    padding-right: 20px;
+    text-align: center;
+
+}
+
+.body-content h3, p{
+    color: white;
+}
+
+.body-content h3{
+    font-size:70px;
+    padding: 0;
+    margin: 0;
+}
+
+.body-content p{
+    width: 500px;
+}
+
+#watch-btn{
+    padding: 10px;
+    width: 9%;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+#watch-btn:hover, #add-btn:hover{
+    cursor: pointer;
+}
+
+#add-btn{
+    padding: 10px;
+    width: 9%;
+    background-color: rgb(67, 65, 65);
+    border: none;
+    color: white;
+    border-radius: 20px;
+}
+
+.body-btn{
+    margin-top: 30px;
+}
+
+.categories{
+    background-color: rgb(55, 55, 55);
+    margin: 0;
+    padding: 10px;
+}
+
+.categories ul li{
+    text-decoration: none;
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.categories ul li:hover{
+    border-bottom: 3px solid red;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.sub-categories{
+    background-color: rgb(41, 40, 40);
+    padding: 10px;
+    display: flex;
+    justify-content:center;
+}
+
+.sub-categories-ul{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.odd{
+    background-color: red;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+}
+
+.even{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+}
+
+.movies .movie img{
+    width: 180px;
+    height: 300px;
+
+}
+
+.movies{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.movie{
+    margin-top: 10px;
+}
